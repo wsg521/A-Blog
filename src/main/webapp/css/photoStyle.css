@@ -1,0 +1,139 @@
+/* Custom Stylesheet */
+.info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.35);
+  padding: 20px;
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.info h1 {
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  margin: 0 0 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0;
+  
+}
+
+.info h1 a {
+ color: #fff; 
+}
+.info h2 {
+  margin-top: 0;
+  color: white;
+  font-size: 14px;
+  font-family: georgia;
+  font-style: italic;
+}
+
+/* Default Demo Style */
+
+/* HTML from Bootstrap */
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: 'oxp-demo';
+	margin: 0 4px;
+	
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	speak: none;
+	text-align: center;
+}
+
+.icon-th:before { content: '\e800'; } 
+.icon-left:before { content: '\e803'; }
+
+
+a, a:visited {
+	color: #888; 
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #333;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto',Arial,sans-serif;
+}
+
+h1 { 
+	font-size: 2.5em; 
+	font-weight: 300; 
+}
+
+h2 { 
+	font-size: 1.5em; 
+	font-weight: 300; 
+}
+
+h3 { 
+	font-size: 1.2em; 
+	font-weight: 400; 
+}
+
+/* Header Style */
+.container .header {
+	margin: 0 auto;
+	padding: 5px;
+	text-align: center;
+	background: rgba(0,0,0,0.01);
+}
+
+.container .header span {
+	display: block;
+	font-size: 60%;
+	opacity: 0.8;
+	padding-bottom: 0.6em;
+}
+
+.nav-top a:hover {
+	background: rgba(255,255,255,0.95);
+	color: #333;
+}
+
+.nav-social {
+	float: left;
+	padding: 0.6em 0.6em 0 0.6em;
+}
+
+.nav-social span {
+	margin-right: 0.5em;
+}
+
+.nav-top span.right {
+	float: right;
+}
+
+.nav-top span.right a {
+	float: left;
+	display: block;
+}
