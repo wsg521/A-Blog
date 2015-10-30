@@ -141,10 +141,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 										addPhoto();
 									}
 								}
-							});
+							});	        				
 	        				//添加图片
 	        				function addPhoto() {
-		        				for (var i = 0;li < life.length,i < 10;li++,i++) {
+		        				for (var i = 0;li < life.length,i < 5;li++,i++) {
 		        					switch (Math.ceil(Math.random()*4)) {
 									case 1:	outPrint(1,life[li].id,life[li].motif,life[li].content,life[li].imgId); 								
 										break;
@@ -164,7 +164,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	        				$(window).scroll(function() {
 	        		            // 当滚动到最底部以上100像素时， 加载新内容
 	        		            //var h = document.getElementById("but").offsetTop;
-	        		            if ($(document).height() - $(this).scrollTop() - $(this).height() < 300 && k < 21 && li < life.length) {
+	        		            if ($(document).height() - $(this).scrollTop() - $(this).height() < 50 && li < life.length) {
 	        		            	addPhoto();
 	        		            }
 	        		        });
