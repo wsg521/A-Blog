@@ -1,5 +1,6 @@
 ﻿<%@ page language="java" pageEncoding="UTF-8"%>
-	
+<html>
+<head>
 	<style>
 	.elevator-item {
 	    position: fixed;
@@ -25,7 +26,10 @@
 	    outline: 0px none;
 	}
 	</style> 
-	
+<link rel="stylesheet" type="text/css" href="css/scrollTop.css" />
+<script type="text/javascript" src="js/scrollTop.js"></script>
+</head>
+<body>
 	<!--nav-->
 	<nav class="navbar navbar-default navbar-custom" role="navigation">
         <div class="container">
@@ -40,7 +44,7 @@
           </div>
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li><a class="nav-link" href="${pageContext.request.contextPath}">首页</a></li>
+              <li><a class="nav-link" href="${pageContext.request.contextPath}/">首页</a></li>
               <li><a class="nav-link" href="${pageContext.request.contextPath}/BlogViewAction!viewBlog.action">A-Blog</a></li>
               <li><a class="nav-link" href="${pageContext.request.contextPath}/BlogViewAction!footPrint.action">脚印</a></li>
               <li><a class="nav-link" target="_blank" href="jl.html">个人简历</a></li>
@@ -51,6 +55,9 @@
       
       <div id="A-Blog_Top"></div>
       
+      <div id='rtt' title="回到顶部"></div>
       <div class="elevator-item"> 
-		<a id="elevator" href="#A-Blog_Top" title="回到顶部"></a> 
-	</div>
+		<!--<a id="elevator" href="#A-Blog_Top" title="回到顶部"></a>-->
+      </div>
+</body>
+</html>
